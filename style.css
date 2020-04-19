@@ -1,0 +1,45 @@
+
+
+*{
+  margin: 5px;
+
+}
+.ml-2, .mx-2 {
+    margin-left: -56px !important;
+}
+.ml-2, .mx-2 {
+    margin-right: 2.5rem !important;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.cart {
+    background-color: lightsteelblue;
+    padding: 21px;
+    padding-bottom: 65px;
+    width: fit-content;
+}
+
+.cursor{
+  cursor:pointer;
+  color:blue;
+  text-decoration:underline;
+}
+
+.alert{
+  margin-bottom: 3px;
+}
+
+.cart-header{
+  background-color: beige;
+}
+
+.cart-reset{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.btn{
+border-radius:50%;
+}
