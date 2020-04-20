@@ -33,9 +33,9 @@ h1, p {
 }
 
 .cart-header{
-  background-color: beige;
+  background-color: #e0dbdb9c;
     position: fixed;
-    width: 90.9%;
+    width: 86.8%;
     margin-top: 480px;
     margin-left: -21px;
     padding: 9px;
