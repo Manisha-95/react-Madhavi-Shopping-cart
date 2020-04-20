@@ -19,7 +19,7 @@ h1, p {
     background-color: lightsteelblue;
     padding: 21px;
     padding-bottom: 65px;
-    width: fit-content;
+   
 }
 
 .cursor{
@@ -34,10 +34,11 @@ h1, p {
 
 .cart-header{
   background-color: beige;
-      position: fixed;
-    width: 86.6%;
-    margin-top: 530px;
-    margin-left: -15px;
+    position: fixed;
+    width: 90.9%;
+    margin-top: 480px;
+    margin-left: -21px;
+    padding: 9px;
 }
 
 .cart-reset{
