@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import CartItem from './cartitem';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
+import  FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faTumblr, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 class Cart extends Component {
   constructor() {
@@ -82,7 +86,7 @@ addTocart =()=>{
   render() {  
     return (
       <div className="cart">  
-          <span title="Reset Cart" className="fa fa-times float-right cursor cart-reset" onClick={this.onResetHandler}>X</span>
+          <span title="Reset Cart" className="fas fa-times-circle" onClick={this.onResetHandler}></span>
           <div className="cart-header">
                 <span className="badge badge-pill badge-info">Cart items: {this.state.cartItemsCount}</span>
                 <span className="badge badge-pill badge-dark">Cart total: ${this.state.cartTotal}</span>

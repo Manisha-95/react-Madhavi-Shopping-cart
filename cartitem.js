@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 class CartItem extends Component {
   constructor() {
     super();
@@ -9,7 +9,7 @@ class CartItem extends Component {
 
   render() {
     return (
-      <div className="alert alert-info">
+      <div className="container">
         <div className="desc">
         <img src={this.props.item.name} width="50px"/>
       
