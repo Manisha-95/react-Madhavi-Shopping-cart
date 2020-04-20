@@ -43,3 +43,7 @@ h1, p {
 .btn{
 border-radius:50%;
 }
+.desc
+{
+  text-align: center;
+}
