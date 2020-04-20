@@ -28,7 +28,7 @@ class CartItem extends Component {
 
 <div class="d-flex">
   <div class="p-2 bd-highlight">18% OFF</div>
-  <div class="p-2 bd-highlight"><div className="round" onClick={()=> this.props.onIncrement(this.props.item)} >+</div>
+  <div class="p-2 bd-highlight"><div className="round" onClick={()=> this.props.onIncrement(this.props.item)}>+</div>
   <div className="btn" >{this.props.item.quantity}</div>
       <div className="round" disabled={this.props.item.quantity===0} onClick={()=> this.props.onDecrement(this.props.item)}>-</div>
       
