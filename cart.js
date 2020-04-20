@@ -86,10 +86,10 @@ addTocart =()=>{
   render() {  
     return (
       <div className="cart container">  
-          <span title="Reset Cart" className="fas fa-times-circle" onClick={this.onResetHandler}></span>
+          <span title="Reset Cart" className="btn btn-info" onClick={this.onResetHandler}>reset</span>
           <div className="cart-header">
-                <span className="badge badge-pill badge-info">Cart items: {this.state.cartItemsCount}</span>
-                <span className="badge badge-pill badge-dark">Cart total: ${this.state.cartTotal}</span>
+                <span className="btn btn-info">Cart items: {this.state.cartItemsCount}</span>
+                <span className="btn btn-info">Cart total: ${this.state.cartTotal}</span>
           </div>   
           {
             this.state.items.map(item=> 

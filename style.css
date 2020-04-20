@@ -34,15 +34,17 @@ h1, p {
 
 .cart-header{
   background-color: beige;
+      position: fixed;
+    width: 86.6%;
+    margin-top: 530px;
+    margin-left: -15px;
 }
 
 .cart-reset{
   margin-top: 10px;
   margin-right: 10px;
 }
-.btn{
-border-radius:50%;
-}
+
 .desc
 {
   text-align: center;

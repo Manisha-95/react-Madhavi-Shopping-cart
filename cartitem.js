@@ -26,15 +26,17 @@ class CartItem extends Component {
 
 </div>
 
-<div class="d-flex">
+<div class="d-flex justify-content-center">
   <div class="p-2 bd-highlight">18% OFF</div>
-  <div class="p-2 bd-highlight"><div className="round" onClick={()=> this.props.onIncrement(this.props.item)}>+</div>
-  <div className="btn" >{this.props.item.quantity}</div>
-      <div className="round" disabled={this.props.item.quantity===0} onClick={()=> this.props.onDecrement(this.props.item)}>-</div>
-      
-  </div>
-  <div class="p-2 bd-highlight"> <button onClick={()=>this.props.addtocart()}>Add to Cart</button></div>
+  <div class="p-2 bd-highlight">
+      <button onClick={()=>this.props.addtocart()}>Add to Cart</button></div>
   
+  <div class="p-2 bd-highlight">
+  <button className="round" onClick={()=> this.props.onIncrement(this.props.item)}>+</button>
+  <div className="btn" >{this.props.item.quantity}</div>
+      <button className="round" disabled={this.props.item.quantity===0} onClick={()=> this.props.onDecrement(this.props.item)}>-</button>
+   
+  </div>
         </div>
 
  
