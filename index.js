@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 import Cart from './cart';
 
+
 class Index extends Component {
   constructor() {
     super();

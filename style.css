@@ -16,7 +16,7 @@ h1, p {
 }
 
 .cart {
-    background-color: lightsteelblue;
+    background-color: #fff;
     padding: 21px;
     padding-bottom: 65px;
    
@@ -49,4 +49,8 @@ h1, p {
 .desc
 {
   text-align: center;
+}
+.incr
+{
+  margin-top: 0px;
 }

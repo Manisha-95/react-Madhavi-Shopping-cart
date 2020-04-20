@@ -12,9 +12,14 @@ class Cart extends Component {
     super();
     this.state = {
         items : [
-          {quantity: 1, name: 'https://i.picsum.photos/id/1011/5472/3648.jpg', description:"jgajhgajhgs",itemQuan:"1l",id: 1, price: 11.00, lineTotal: 0},
-          {quantity: 1, name: 'https://i.picsum.photos/id/1025/4951/3301.jpg',description:"jgajhgajhgs",itemQuan:"1l", id: 2, price: 12.00, lineTotal: 0},
-          {quantity: 1, name: 'https://i.picsum.photos/id/1027/2848/4272.jpg',description:"jgajhgajhgs",itemQuan:"1l", id: 3, price: 13.00, lineTotal: 0}         
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71m8eUIO8YL._AC_UY218_ML3_.jpg', description:"Nature Vit Soy Milk Powder, Non-GMO and 49% Protein",itemQuan:"MRP:400",id: 1, price: 320, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/81EEyEAOGIL._AC_UY218_ML3_.jpg',description:"The Divine Foods Organic Golden Milk, Latte (250 gm)",itemQuan:"MRP:995", id: 2, price:851, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61A3UeaGxiL._AC_UY218_ML3_.jpg',description:"Sri Sri Tattva Ojasvita Chocolate Powder - 500 g",itemQuan:"MRP:265", id: 3, price: 249, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61A3UeaGxiL._AC_UY218_ML3_.jpg',description:"Sri Sri Tattva Ojasvita Chocolate Powder - 500 g",itemQuan:"MRP:265", id: 3, price: 249, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61A3UeaGxiL._AC_UY218_ML3_.jpg',description:"Sri Sri Tattva Ojasvita Chocolate Powder - 500 g",itemQuan:"MRP:265", id: 3, price: 249, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61A3UeaGxiL._AC_UY218_ML3_.jpg',description:"Sri Sri Tattva Ojasvita Chocolate Powder - 500 g",itemQuan:"MRP:265", id: 3, price: 249, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61A3UeaGxiL._AC_UY218_ML3_.jpg',description:"Sri Sri Tattva Ojasvita Chocolate Powder - 500 g",itemQuan:"MRP:265", id: 3, price: 249, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71m8eUIO8YL._AC_UY218_ML3_.jpg', description:"Nature Vit Soy Milk Powder, Non-GMO and 49% Protein",itemQuan:"MRP:400",id: 1, price: 320, lineTotal: 0}         
       ],
       cartTotal : 0,
       cartItemsCount : 0
