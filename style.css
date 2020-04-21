@@ -34,11 +34,7 @@ h1, p {
 
 .cart-header{
   background-color: #e0dbdb9c;
-    position: fixed;
-    width: 86.8%;
-    margin-top: 527px;
-    margin-left: -21px;
-    padding: 9px;
+   padding: 9px;
 }
 
 .cart-reset{
@@ -53,4 +49,12 @@ h1, p {
 .incr
 {
   margin-top: 0px;
+}
+h5
+{
+  width: 85%;
+}
+@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: unset;
 }

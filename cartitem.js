@@ -17,7 +17,7 @@ class CartItem extends Component {
   <div class="d-flex flex-column bd-highlight mb-3">
   <div class="p-2 bd-highlight"><h5>{this.props.item.description}</h5></div>
   <div class="p-2 bd-highlight"><strike><h6>{this.props.item.itemQuan}</h6></strike></div>
-  <div class="p-2 bd-highlight">{this.props.item.price}</div>
+  <div class="p-2 bd-highlight"><b>RS:{this.props.item.price}</b></div>
 </div>
   
    </div>
@@ -27,7 +27,7 @@ class CartItem extends Component {
 </div>
 
 <div class="d-flex justify-content-center">
-  <div class="p-2 bd-highlight">18% OFF</div>
+  <div class="p-2 bd-highlight"><h4>{this.props.item.discount}Off</h4></div>
   <div class="p-2 bd-highlight">
       <button className="btn btn-success" onClick={()=>this.props.addtocart()}>Add to Cart</button></div>
   
