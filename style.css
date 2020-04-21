@@ -54,7 +54,8 @@ h5
 {
   width: 85%;
 }
-@media (min-width: 992px)
+@media (min-width: 992px){
 .container, .container-lg, .container-md, .container-sm {
     max-width: unset;
+}
 }
