@@ -65,8 +65,13 @@ h5
     max-width: 720px;
 }
 }
-.line::after
+.btn-success {
+    color: #fff;
+    background-color: #a5545b !important;
+    border-color: #a5545b !important;
+}
+.line
 {
-border: 1px solid #00000070;
-    height: 1px;
+border: 1px solid #00000070 !important;
+height: 1px !important;
 }
