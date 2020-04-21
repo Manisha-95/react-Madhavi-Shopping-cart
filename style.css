@@ -86,3 +86,9 @@ height: 1px !important;
 {
   z-index:999 !important;
 }
+.mod
+{
+  float: right;
+    background-color: #a5545b;
+    border-color: #a5545b;
+}
