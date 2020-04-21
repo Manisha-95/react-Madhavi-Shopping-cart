@@ -9,7 +9,7 @@ class CartItem extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container line">
            <div className="desc row justify-content-center">
            <div class="d-flex">
   <div class="p-2 flex-grow-1 bd-highlight align-self-center"><img  src={this.props.item.name} width="200px"/></div>
