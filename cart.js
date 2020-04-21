@@ -15,13 +15,13 @@ class Cart extends Component {
           {quantity: 1, name: 'https://m.media-amazon.com/images/I/71m8eUIO8YL._AC_UY218_ML3_.jpg', description:"Nature Vit Soy Milk Powder, Non-GMO and 49% Protein",itemQuan:"MRP:400",id: 1, price: 320, discount:"20%",lineTotal: 0},
           {quantity: 1, name: 'https://m.media-amazon.com/images/I/81EEyEAOGIL._AC_UY218_ML3_.jpg',description:"The Divine Foods Organic Golden Milk, Latte (250 gm)",itemQuan:"MRP:995", id: 2, price:851, discount:"14%", lineTotal: 0},
           {quantity: 1, name: 'https://m.media-amazon.com/images/I/61A3UeaGxiL._AC_UY218_ML3_.jpg',description:"Sri Sri Tattva Ojasvita Chocolate Powder - 500 g",itemQuan:"MRP:265", discount:"6%", id: 3, price: 249, lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61oy+mHuntL._AC_UL320_ML3_.jpg',description:"As Fresh Freeze Dried A2 Cow Milk Powder 100g",itemQuan:"MRP:550", discount:"17%", id: 3, price: 454, lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71rnnh9UBQL._AC_UL320_ML3_.jpg',description:"Aadvik Freeze Dried Camel Milk Powder | Pack of 30g x 10 Sachets (300g)",itemQuan:"MRP:1200",discount:"7%", id: 3, price: 1115, lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71nz91LZfQL._AC_UL320_ML3_.jpg',description:"Urban Platter Vanilla Bean Powder, 10 g",itemQuan:"MRP:600", discount:"5%", id: 3, price: 570, lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71MO3fAn6GL._AC_UL320_ML3_.jpg',description:"Nutra Vita Freeze Dried A2 Gir Cow Milk Powder 1000 g (2x500g)",itemQuan:"MRP:6000", id: 3, price: 5000, discount:"17%", lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71x9onReBAL._AC_UL320_ML3_.jpg', description:"Nestle Everyday Dairy Whitener, 400g Pouch",itemQuan:"MRP:150",id: 1, price: 120,discount:"20%", lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/715MRs2VY2L._AC_UL320_ML3_.jpg', description:"The Divine Foods Organic Golden Milk",itemQuan:"MRP:300",id: 1, price: 280,discount:"7%", lineTotal: 0},
-          {quantity: 1, name: 'https://m.media-amazon.com/images/I/41ViFkbTYQL._AC_UL320_ML3_.jpg', description:"SriSatymev ® Skimmed Milk Powder, 500 g",itemQuan:"MRP:549",id: 1, price: 330,discount:"40%", lineTotal: 0}         
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/61oy+mHuntL._AC_UL320_ML3_.jpg',description:"As Fresh Freeze Dried A2 Cow Milk Powder 100g",itemQuan:"MRP:550", discount:"17%", id: 4, price: 454, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71rnnh9UBQL._AC_UL320_ML3_.jpg',description:"Aadvik Freeze Dried Camel Milk Powder | Pack of 30g x 10 Sachets (300g)",itemQuan:"MRP:1200",discount:"7%", id: 5, price: 1115, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71nz91LZfQL._AC_UL320_ML3_.jpg',description:"Urban Platter Vanilla Bean Powder, 10 g",itemQuan:"MRP:600", discount:"5%", id: 6, price: 570, lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71MO3fAn6GL._AC_UL320_ML3_.jpg',description:"Nutra Vita Freeze Dried A2 Gir Cow Milk Powder 1000 g (2x500g)",itemQuan:"MRP:6000", id: 7, price: 5000, discount:"17%", lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/71x9onReBAL._AC_UL320_ML3_.jpg', description:"Nestle Everyday Dairy Whitener, 400g Pouch",itemQuan:"MRP:150",id: 8, price: 120,discount:"20%", lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/715MRs2VY2L._AC_UL320_ML3_.jpg', description:"The Divine Foods Organic Golden Milk",itemQuan:"MRP:300",id: 9, price: 280,discount:"7%", lineTotal: 0},
+          {quantity: 1, name: 'https://m.media-amazon.com/images/I/41ViFkbTYQL._AC_UL320_ML3_.jpg', description:"SriSatymev ® Skimmed Milk Powder, 500 g",itemQuan:"MRP:549",id: 10, price: 330,discount:"40%", lineTotal: 0}         
       ],
       cartTotal : 0,
       cartItemsCount : 0
