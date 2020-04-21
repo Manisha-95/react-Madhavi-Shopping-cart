@@ -82,3 +82,7 @@ height: 1px !important;
   background-color: #a5545b;
   border-color:#a5545b;
 }
+.modal-backdrop
+{
+  z-index:999 !important;
+}
