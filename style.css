@@ -35,6 +35,7 @@ h1, p {
 .cart-header{
   background-color: #e0dbdb9c;
    padding: 9px;
+   margin: 0px;
 }
 
 .cart-reset{
@@ -74,4 +75,10 @@ h5
 {
 border: 1px solid #00000070 !important;
 height: 1px !important;
+}
+.checkout
+{
+  float: right;
+  background-color: #a5545b;
+  border-color:#a5545b;
 }

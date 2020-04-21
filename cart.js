@@ -30,8 +30,7 @@ class Cart extends Component {
 
   onIncrementHandler = (item) => {
     var cloneItems = [...this.state.items];
-    console.log(cloneItems);
-    var index = cloneItems.indexOf(item);
+       var index = cloneItems.indexOf(item);
     cloneItems[index].quantity++;
     this.setState({items:cloneItems});
 
@@ -54,10 +53,10 @@ class Cart extends Component {
     var total = this.state.cartTotal - (1 * item.price);
     // this.setState({cartTotal: total});
   }
-addTocart =()=>{
+/* addTocart =()=>{
   this.setState({cartItemsCount: cartItemsCount});
   this.setState({cartTotal: total});
-}
+} */
   onResetHandler = () => {
     var cloneItems = [...this.state.items];
      for(var i=0; i<= cloneItems.length-1; i++){
@@ -69,25 +68,17 @@ addTocart =()=>{
      this.setState({cartItemsCount:0});
   }
 
-  itemsCount = () => {
-    var countItems = this.state.items.reduce((total, item) => (total + item.quantity), 0);
-    return countItems;
-  }
-
-  cartTotal = () => {
-    var total = this.state.items.reduce((total, item) => (total + (item.quantity * item.price)), 0);
-    return total;
-  }
-  // addTocart = () =>{
-  //   console.log("hgjhg");
-     
-  // }
-
-  addTocart = () => {
-    var count = this.itemsCount();
-    this.setState({cartItemsCount: count});
-    var total = this.cartTotal();
-    this.setState({cartTotal: total});
+  
+  addTocart = (item) => {
+     var cloneItems = [...this.state.items];
+    var index = cloneItems.indexOf(item);
+    console.log(index);
+    var itemscount;
+    itemscount= this.state.cartItemsCount+cloneItems[index].quantity;
+    var total=this.state.cartTotal+cloneItems[index].price;
+    this.setState({cartItemsCount: itemscount});
+     this.setState({cartTotal: total});
+    
   }
 
   render() {  
@@ -98,6 +89,7 @@ addTocart =()=>{
                 <span className="btn btn-info">Cart items: {this.state.cartItemsCount}</span>
                 <span className="btn btn-info">Cart total:{this.state.cartTotal}</span>
                 <span title="Reset Cart" className="btn btn-info" onClick={this.onResetHandler}>reset</span>
+                <span className="checkout btn btn-info">Checkout</span>
           </div>   
           {
             this.state.items.map(item=> 

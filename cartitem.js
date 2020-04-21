@@ -29,7 +29,7 @@ class CartItem extends Component {
 <div class="d-flex justify-content-center">
   <div class="p-2 bd-highlight"><h4>{this.props.item.discount}Off</h4></div>
   <div class="p-2 bd-highlight">
-      <button className="btn btn-success" onClick={()=>this.props.addtocart()}>Add to Cart</button></div>
+      <button className="btn btn-success" onClick={()=>this.props.addtocart(this.props.item)}>Add to Cart</button></div>
   
   <div class="p-2 bd-highlight incr">
   <button className="round btn btn-success" onClick={()=> this.props.onIncrement(this.props.item)}>+</button>
