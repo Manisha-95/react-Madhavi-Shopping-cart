@@ -118,7 +118,11 @@ height: 1px !important;
 .add{
 flex-direction: column;
         text-align: center;
+            position: relative;
+    top: -49px;
 }
+
+
 
  
 }
