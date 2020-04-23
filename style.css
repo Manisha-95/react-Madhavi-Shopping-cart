@@ -98,7 +98,7 @@ height: 1px !important;
     background-color: #17a2b8 !important;
     border-color: #17a2b8 !important;
 }
-@media (min-width: 360px)
+@media (max-width: 360px)
 {
   .btn-info
   {
@@ -106,14 +106,18 @@ height: 1px !important;
   }
   .d-flex
 {
-  margin-top: 61px !important;
-  display: block !important;
+  margin-top: 130px !important;
+      flex-wrap: wrap !important;
    margin-left: 5px !important;
 }
-.p-2
+.con
 {
-  padding: 0px !important;
+     margin: -100px 9px;
  
+}
+.add{
+flex-direction: column;
+        text-align: center;
 }
 
  

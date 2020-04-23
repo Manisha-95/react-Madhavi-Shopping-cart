@@ -13,7 +13,7 @@ class CartItem extends Component {
            <div className="desc row justify-content-center">
            <div class="d-flex">
   <div class="p-2 flex-grow-1 bd-highlight align-self-center"><img  src={this.props.item.name} width="200px"/></div>
-  <div class="p-2 bd-highlight">
+  <div class="p-2 bd-highlight con">
   <div class="d-flex flex-column bd-highlight mb-3">
   <div class="p-2 bd-highlight"><h5>{this.props.item.description}</h5></div>
   <div class="p-2 bd-highlight"><strike><h6>{this.props.item.itemQuan}</h6></strike></div>
@@ -26,7 +26,7 @@ class CartItem extends Component {
 
 </div>
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center add">
   <div class="p-2 bd-highlight"><h4>{this.props.item.discount}Off</h4></div>
   <div class="p-2 bd-highlight">
       <button className="btn btn-success" onClick={()=>this.props.addtocart(this.props.item)}>Add to Cart</button></div>
