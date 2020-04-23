@@ -77,10 +77,10 @@ class Cart extends Component {
     console.log(index);
     var itemscount;
     itemscount= this.state.cartItemsCount+cloneItems[index].quantity;
-    var total=this.state.cartTotal+cloneItems[index].price;
+    var total=this.state.cartTotal+cloneItems[index].price*cloneItems[index].quantity;
     this.setState({cartItemsCount: itemscount});
      this.setState({cartTotal: total});
-    
+    cloneItems[index].quantity=0;
   }
 
   render() {  
@@ -93,7 +93,7 @@ class Cart extends Component {
                 <span title="Reset Cart" className="btn btn-info" onClick={this.onResetHandler}>reset</span>
                
 
-<button type="button" class="btn btn-primary mod" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary mod checkout" data-toggle="modal" data-target="#exampleModal">
   Checkout
 </button>
 
