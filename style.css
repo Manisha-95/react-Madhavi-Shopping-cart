@@ -98,3 +98,23 @@ height: 1px !important;
     background-color: #17a2b8 !important;
     border-color: #17a2b8 !important;
 }
+@media (min-width: 360px)
+{
+  .btn-info
+  {
+ width: 49% !important;
+  }
+  .d-flex
+{
+  margin-top: 61px !important;
+  display: block !important;
+   margin-left: 5px !important;
+}
+.p-2
+{
+  padding: 0px !important;
+ 
+}
+
+ 
+}
