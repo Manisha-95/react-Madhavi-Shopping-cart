@@ -98,7 +98,7 @@ height: 1px !important;
     background-color: #17a2b8 !important;
     border-color: #17a2b8 !important;
 }
-@media (max-width: 360px)
+@media (max-width: 516px)
 {
   .btn-info
   {
