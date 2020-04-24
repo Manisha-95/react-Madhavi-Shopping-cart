@@ -75,12 +75,13 @@ class Cart extends Component {
      var cloneItems = [...this.state.items];
     var index = cloneItems.indexOf(item);
     console.log(index);
+  
     var itemscount;
     itemscount= this.state.cartItemsCount+cloneItems[index].quantity;
     var total=this.state.cartTotal+cloneItems[index].price*cloneItems[index].quantity;
     this.setState({cartItemsCount: itemscount});
      this.setState({cartTotal: total});
-    cloneItems[index].quantity=0;
+    cloneItems[index].quantity=cloneItems[index].quantity;
   }
 
   render() {  
@@ -107,6 +108,8 @@ class Cart extends Component {
         </button>
       </div>
       <div class="modal-body">
+      {this.state.items.map(item=>{[...this.state.items].indexOf(item);
+      item.quantity})}
         <h4>Total Amount: {this.state.cartTotal}</h4>
 
         !!!!Transaction Successful.!!!!
