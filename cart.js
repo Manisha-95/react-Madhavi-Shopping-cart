@@ -109,11 +109,11 @@ class Cart extends Component {
       </div>
       <div class="modal-body">
       {this.state.items.map(item=>
-     
-      <h4>
-      
-        {[...this.state.items].indexOf(item)}-
-      {item.lineTotal}</h4>
+     item.lineTotal > 0 ?
+      <div>
+      {[...this.state.items].indexOf(item)}-
+      {item.lineTotal}-<span>{item.price*item.lineTotal}</span></div>
+      : ""
      
     )}
         <h4>Total Amount: {this.state.cartTotal}</h4>
